@@ -96,6 +96,7 @@ class php::params inherits php::globals {
       $fpm_service_name        = 'php-fpm'
       $fpm_user                = 'wwwrun'
       $fpm_group               = 'www'
+      $apache_inifile          = "${config_root}/apache2/php.ini"
       $embedded_package_suffix = 'embed'
       $embedded_inifile        = "${config_root}/embed/php.ini"
       $package_prefix          = $php::globals::package_prefix
